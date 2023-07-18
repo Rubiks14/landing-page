@@ -6,17 +6,25 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header {
+.header,
+.hero {
     background-color: #1f2937;
+}
+
+.header {
     height: 24px;
-    padding: 16px;
     display: flex;
     justify-content: space-between;
+    padding: 16px 48px;
+}
+
+.logo,
+.hero-main {
+    color: #f9faf8;
 }
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
 }
 
 ul.links {
@@ -27,8 +35,33 @@ ul.links {
     gap: 16px;
 }
 
-a {
-    font-size: 18px;
+.links a,
+.hero-secondary {
     color: #e5e7eb;
+    font-size: 18px;
+}
+
+a {
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 48px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.info,
+.hero-image {
+    height: 300px;
+}
+
+.hero-image {
+    flex: initial;
 }
