@@ -20,7 +20,7 @@ a {
 button {
     background-color: #3882F6;
     border: none;
-    padding: 12px 36px;
+    padding: 8px 24px;
     color: #f9faf8;
     font-size: 16px;
     font-weight: 700;
@@ -71,11 +71,122 @@ ul.links a,
     margin-bottom: 16px;
 }
 
-.info,
+.hero-info,
 .hero-image {
     height: 300px;
 }
 
-.info {
+.hero-info {
     flex-basis: 500px;
+}
+
+.content {
+    padding-top: 32px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #1f2937;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-card {
+    width: 200px;
+    height: 200px;
+    font: 18px;
+}
+
+.info-card img {
+    flex: initial;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: .5em;
+    margin-bottom: 8px;
+}
+
+.info-card p {
+    padding: 0;
+    margin: 0;
+}
+
+.quote-container {
+    height: 360px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 212px;
+}
+
+.block-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+.action-container {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 212px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 0.5em;
+    width: 848px;
+    height: 150px;
+    padding: 8px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-secondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-button {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    height: 128px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
